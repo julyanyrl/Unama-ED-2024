@@ -1,11 +1,11 @@
-### Pilha Invertida
+### Árvores Binárias - Funções Iterativas
 
-Este script em linguagem C implementa uma funcionalidade para inverter os elementos de uma pilha. Ele utiliza as operações básicas de pilha (`push`, `pop`) para reorganizar os elementos, colocando o que estava no topo na base e vice-versa.
+Este script em linguagem C implementa versões **iterativas** (sem recursão) das funções de busca, contagem e impressão para árvores binárias. Essas funções foram desenvolvidas utilizando estruturas de repetição como `while` e `for`.
 
-Os valores da pilha são predefinidos no código para simplificar a execução.
+Foi adicionado uma seção de testes no `main` para verificar o funcionamento das funções iterativas.
 
 ### Funcionalidades
 
-- Criação de uma pilha dinâmica.
-- Inversão dos elementos da pilha utilizando uma pilha auxiliar.
-- Impressão da pilha original e da pilha invertida.
+- **Busca iterativa**: Localiza um valor na árvore binária sem utilizar recursão.
+- **Contagem iterativa**: Conta o número total de nós da árvore utilizando uma pilha auxiliar.
+- **Impressão iterativa**: Realiza a travessia da árvore em ordem (in-order traversal) sem recursão.
